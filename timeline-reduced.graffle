@@ -76,6 +76,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -127,6 +132,11 @@
 			<string>ShapedGraphic</string>
 			<key>ID</key>
 			<integer>516</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>javascript:'showBinHarazi()</string>
+			</dict>
 			<key>Shape</key>
 			<string>RoundRect</string>
 			<key>Style</key>
@@ -144,6 +154,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -216,6 +231,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -282,6 +302,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -344,6 +369,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -370,10 +400,13 @@
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Train 
-\i\b reservation, paid in cash in Charlottesville
+\f0\i\b\fs6 \cf0 Train reservation, 
+\i0\b0 paid for in cash in
+\i\b  Charlottesville
 \i0\b0 , by 
-\i\b Al Shibh for himself, Galab, and Mosed
+\i\b Al Shibh 
+\i0\b0 for
+\i\b  himself, Galab, and Mosed
 \i0\b0  on 
 \i\b 23 April 2004
 \i0\b0  for three one-way first class tickets and one sleeping compartment from 
@@ -389,7 +422,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1423, 189}, {66, 32}}</string>
+			<string>{{1423, 185}, {66, 32}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -411,6 +444,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -461,7 +499,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1423, 221}, {66, 26}}</string>
+			<string>{{1423, 219}, {66, 26}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -483,6 +521,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -531,7 +574,7 @@
 			<key>ID</key>
 			<integer>523</integer>
 			<key>Shape</key>
-			<string>FlattenedRectangle</string>
+			<string>RoundRect</string>
 			<key>Style</key>
 			<dict>
 				<key>fill</key>
@@ -547,6 +590,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -612,6 +660,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -640,19 +693,21 @@
 
 \f0\fs6 \cf0 Many recent calls from 
 \i\b bin Harazi
-\i0\b0  to: Clark Webster 
-\i\b 804-759-6302
-\i0\b0  [
-\i\b Richmond, VA
-\i0\b0 ; Mukhtar Galab 
+\i0\b0  to: 
+\i\b Clark Webster 804-759-6302 [Richmond, VA; Mukhtar Galab
+\i0\b0  
 \i\b 804-774-8920
 \i0\b0  [
 \i\b Charlottesville, VA
-\i0\b0 ]; Sahim Albakri / Alwan 
+\i0\b0 ]; 
+\i\b Sahim Albakri / Alwan
+\i0\b0  
 \i\b 718-352-8479
 \i0\b0  [
 \i\b Queens, NYC
-\i0\b0 ]; Abdul Al Masri 
+\i0\b0 ]; 
+\i\b Abdul Al Masri
+\i0\b0  
 \i\b 011207670734
 \i0\b0  [
 \i\b Amsterdam, The Netherlands
@@ -687,6 +742,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -727,7 +787,9 @@
 \i\b 2932 University Drive, Charlottesville, VA (also bin Harazi)--vacant
 \i0\b0 . \'a0
 \i\b 804-774-8920
-\i0\b0  is registered in the name Mukhtar Galab.}</string>
+\i0\b0  is registered in the name 
+\i\b Mukhtar Galab
+\i0\b0 .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -758,6 +820,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -824,6 +891,11 @@
 						<string>0.454902</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -885,6 +957,11 @@
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1008,6 +1085,8 @@
 						<key>r</key>
 						<string>0</string>
 					</dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>Fuzziness</key>
 					<real>0.0</real>
 					<key>ShadowVector</key>
@@ -1049,6 +1128,11 @@ VA/DC}</string>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
 			<integer>530</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>javascript:showBinHarazi();</string>
+			</dict>
 			<key>Shape</key>
 			<string>RoundRect</string>
 			<key>Style</key>
@@ -1066,6 +1150,11 @@ VA/DC}</string>
 						<key>r</key>
 						<string>0.454902</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1093,9 +1182,7 @@ VA/DC}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\i\fs6 \cf0 1 April 2003
-\i0  - 
-\i\b Muhammed bin Harazi
+\f0\i\b\fs6 \cf0 Muhammed bin Harazi
 \i0\b0  received checks totaling $35,000 from accounts in
 \i\b  Cairo 
 \i0\b0 and
@@ -1109,7 +1196,7 @@ VA/DC}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1614, 313}, {76, 29}}</string>
+			<string>{{1614, 314}, {76, 29}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1131,6 +1218,11 @@ VA/DC}</string>
 						<key>r</key>
 						<string>1</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1173,7 +1265,7 @@ VA/DC}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1615, 296}, {76, 17}}</string>
+			<string>{{1615, 295}, {76, 17}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1195,6 +1287,11 @@ VA/DC}</string>
 						<key>r</key>
 						<string>1</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1224,7 +1321,7 @@ VA/DC}</string>
 
 \f0\fs6 \cf0  Report from 
 \i\b Amsterdam
-\i0\b0  on lists 
+\i0\b0  lists 
 \i\b Holland Queen
 \i0\b0  
 \i\b bound for Boston
@@ -1239,7 +1336,7 @@ VA/DC}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1220, 319}, {81, 36}}</string>
+			<string>{{1220, 321}, {81, 36}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1261,6 +1358,11 @@ VA/DC}</string>
 						<key>r</key>
 						<string>1</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1296,12 +1398,14 @@ VA/DC}</string>
 \i0\b0  by Dutch police in 
 \i\b Haarlem for
 \i0\b0  leaving the scene of an accident. \'a0Have been wanted in 
-\i\b Hamburg in connection with
-\i0\b0  
-\i\b Al Qaeda operations in Europe
-\i0\b0 . \'a0D
-\i\b riving a truck rented in Hamburg
-\i0\b0  with radioactive traces.}</string>
+\i\b Hamburg
+\i0\b0  in connection with 
+\i\b Al Qaeda 
+\i0\b0 operations in Europe. \'a0Driving a truck rented in 
+\i\b Hamburg
+\i0\b0  with 
+\i\b radioactive traces
+\i0\b0 .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1333,6 +1437,11 @@ VA/DC}</string>
 						<string>1</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1360,16 +1469,18 @@ VA/DC}</string>
 \pard\pardeftab720
 
 \f0\fs6 \cf0  
-\i\b 4 Stinger missiles found in shipping container at docks in Bremerhaven, Germany
+\i\b 4 Stinger missiles 
+\i0\b0 found in shipping container at docks in 
+\i\b Bremerhaven, Germany
 \i0\b0  addressed to 
 \i\b Marvel Corporation, 1632 Trenton Avenue, Trenton, New Jersey, USA
 \i0\b0 . \'a0Shipped from bad address: 
-\i\b 16 Rhinelander Platz, Hamburg. M
-\i0\b0 issiles 
-\i\b from among those
-\i0\b0  
-\i\b given Taliban fighters in 80s
-\i0\b0 .}</string>
+\i\b 16 Rhinelander Platz, Hamburg. 
+\i0\b0 Missiles
+\i\b  
+\i0\b0 from among those given 
+\i\b Taliban
+\i0\b0  fighters in 80s.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1401,6 +1512,11 @@ VA/DC}</string>
 						<string>1</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1427,9 +1543,12 @@ VA/DC}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Al Masri working on board 
+\f0\i\b\fs6 \cf0 Al Masri
+\i0\b0  working on board 
 \i\b Holland Queen in galley.
-\i0\b0  Received explosives training by Al Qaeda; left for 
+\i0\b0  Received explosives training by 
+\i\b Al Qaeda
+\i0\b0 ; left for 
 \i\b Netherlands
 \i0\b0  in 
 \i\b January 1996
@@ -1465,6 +1584,11 @@ VA/DC}</string>
 						<string>1</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1493,14 +1617,20 @@ VA/DC}</string>
 
 \f0\fs6 \cf0 Address for apt. in 
 \i\b Haarlem
-\i0\b0  found in 
-\i\b truck driven by Tawfiq al Adal and Saeed Khallad
-\i0\b0 . \'a0A
-\i\b ddress is for apt. of al Ahdal and bin Attash who
-\i0\b0  
-\i\b also rent storage unit #206
-\i0\b0 . \'a0Employed as 
-\i\b container loaders at Sealink Container Corp. in Amsterdam
+\i0\b0  found in truck driven by 
+\i\b Tawfiq al Adal
+\i0\b0  and
+\i\b  Saeed Khallad
+\i0\b0 . \'a0Address is for apt. of
+\i\b  al Ahdal 
+\i0\b0 and
+\i\b  bin Attash 
+\i0\b0 who also rent 
+\i\b storage unit #206
+\i0\b0 . \'a0Employed as container loaders at 
+\i\b Sealink Container Corp. 
+\i0\b0 in
+\i\b  Amsterdam
 \i0\b0 . \'a0Storage unit #206 investigation on 23 April 2004 reveals 
 \i\b radiation traces
 \i0\b0 , one pair of 
@@ -1544,6 +1674,11 @@ VA/DC}</string>
 						<key>r</key>
 						<string>1</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1617,6 +1752,11 @@ VA/DC}</string>
 						<string>1</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1682,6 +1822,11 @@ VA/DC}</string>
 						<string>1</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -1709,7 +1854,11 @@ VA/DC}</string>
 \pard\pardeftab720
 
 \f0\i\b\fs6 \cf0 Omar Bakri Qatada
-\i0\b0  in London with explosives.}</string>
+\i0\b0  arrested in 
+\i\b London
+\i0\b0  with 
+\i\b explosives
+\i0\b0 .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1792,6 +1941,8 @@ VA/DC}</string>
 						<key>r</key>
 						<string>0</string>
 					</dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>Fuzziness</key>
 					<real>0.0</real>
 					<key>ShadowVector</key>
@@ -1828,7 +1979,7 @@ Europe}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1227, 176}, {66, 41}}</string>
+			<string>{{1227, 179}, {66, 41}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1850,6 +2001,11 @@ Europe}</string>
 						<key>r</key>
 						<string>0.184314</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1877,11 +2033,13 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Calls made from Albakri / / Alwan 
+\f0\fs6 \cf0 Calls made from Albakri / Alwan 
 \i\b 718-352-8479
 \i0\b0  at 
 \i\b 2462 Myrtle Ave., Apt. 307, Queens, NYC 
-\i0\b0 to a Hani al-Hallak 
+\i0\b0 to a 
+\i\b Hani al-Hallak
+\i0\b0  
 \i\b 732-455-6392
 \i0\b0  in 
 \i\b North Bergen, NJ
@@ -1898,7 +2056,7 @@ Europe}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1227, 153.74585}, {66, 22.508287}}</string>
+			<string>{{1227, 154.74585}, {66, 22.508287}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1920,6 +2078,11 @@ Europe}</string>
 						<key>r</key>
 						<string>0.184314</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -1983,6 +2146,11 @@ Europe}</string>
 						<string>0.184314</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2009,7 +2177,11 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Fire in Hani al Hallak\'92s carpet shop early 26 April. \'a0
+\f0\fs6 \cf0 Fire in 
+\i\b Hani al Hallak\'92s
+\i0\b0  
+\i\b carpet shop
+\i0\b0  early 26 April. \'a0
 \i\b C-4
 \i0\b0  explosives found in shop. \'a0al Hallak had went on holiday in 
 \i\b Canada
@@ -2045,6 +2217,11 @@ Europe}</string>
 						<string>0.184314</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2071,7 +2248,8 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Hamid Alwan / 
+\f0\i\b\fs6 \cf0 Hamid Alwan
+\i0\b0  / 
 \i\b Mark Davis
 \i0\b0  
 \i\b overstayed a travel visa
@@ -2110,6 +2288,11 @@ Europe}</string>
 						<key>r</key>
 						<string>0.184314</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -2175,6 +2358,11 @@ Europe}</string>
 						<string>0.184314</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2201,8 +2389,9 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Albakri /  Alwan to pick the carpet from  Hani al-Hallak 
-\i\b 's 
+\f0\i\b\fs6 \cf0 Albakri /  Alwan
+\i0\b0  to pick the carpet from  
+\i\b Hani al-Hallak's 
 \i0\b0  
 \i\b carpet store
 \i0\b0 . \'a0 }</string>
@@ -2237,6 +2426,11 @@ Europe}</string>
 						<string>0.184314</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2263,8 +2457,8 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\i\b\fs6 \cf0 bin Harazi has sent
-\i0\b0  money to 
+\f0\i\b\fs6 \cf0 bin Harazi 
+\i0\b0 has sent money to 
 \i\b Hani al Hallak
 \i0\b0 , of 
 \i\b North Bergen, NJ
@@ -2302,6 +2496,11 @@ Europe}</string>
 						<string>0.184314</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2328,7 +2527,8 @@ Europe}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Shiela Watson said she simply made a mistake in listing her address on her NYSE application.}</string>
+\f0\i\b\fs6 \cf0 Shiela Watson
+\i0\b0  said she simply made a mistake in listing her address on her NYSE application.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -2359,6 +2559,11 @@ Europe}</string>
 						<key>r</key>
 						<string>0.184314</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -2470,6 +2675,8 @@ Europe}</string>
 						<key>r</key>
 						<string>0</string>
 					</dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>Fuzziness</key>
 					<real>0.0</real>
 					<key>ShadowVector</key>
@@ -2622,6 +2829,11 @@ Corridor}</string>
 						<string>0.4</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2692,6 +2904,11 @@ Corridor}</string>
 						<key>r</key>
 						<string>0.4</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -2769,6 +2986,11 @@ Corridor}</string>
 						<string>0.4</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2795,11 +3017,13 @@ Corridor}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\i\b\fs6 \cf0 car bomb
+\f0\i\b\fs6 \cf0 Car bomb
 \i0\b0  set off near 
 \i\b American Diplomatic Mission Headquarters
 \i0\b0  in 
-\i\b Buenos Aires by Jamil Musawi (Hezbollah)
+\i\b Buenos Aires 
+\i0\b0 by 
+\i\b Jamil Musawi (Hezbollah)
 \i0\b0 .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -2831,6 +3055,11 @@ Corridor}</string>
 						<key>r</key>
 						<string>0.4</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -2864,9 +3093,9 @@ Corridor}</string>
 \i0\b0  and 
 \i\b Joseph Nizar arrested at O\'92Hare
 \i0\b0  after
-\i\b  opening luggage
-\i0\b0  that was about to be transferred
-\i\b  to a into NY
+\i\b  
+\i0\b0 opening luggage that was about to be transferred to a flight into 
+\i\b NY
 \i0\b0 .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -2899,6 +3128,11 @@ Corridor}</string>
 						<string>0.4</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -2925,7 +3159,9 @@ Corridor}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Seattle Post Office reported that six identical package bombs, marked \'93Home Made Candies\'94, were sent to state government officials in Seattle by a Middle Eastern man. \'a0Each one had the return address: 
+\f0\fs6 \cf0 Seattle Post Office reported that six identical 
+\i\b package bombs
+\i0\b0 , marked \'93Home Made Candies\'94, were sent to state government officials in Seattle by a Middle Eastern man. \'a0Each one had the return address: 
 \i\b 1635 Alder St., Seattle, Washington
 \i0\b0 .}</string>
 				<key>VerticalPad</key>
@@ -2958,6 +3194,11 @@ Corridor}</string>
 						<key>r</key>
 						<string>0.4</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -3024,6 +3265,11 @@ Corridor}</string>
 						<string>0.4</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -3051,7 +3297,9 @@ Corridor}</string>
 \pard\pardeftab720
 
 \f0\i\b\fs6 \cf0 Abdul al Hada
-\i0\b0  (Guantanamo detainee) warns against flying in April.}</string>
+\i0\b0  (Guantanamo detainee) warns against 
+\i\b flying
+\i0\b0  in April.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -3060,7 +3308,7 @@ Corridor}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{373, 365.50012}, {63, 22.999725}}</string>
+			<string>{{373, 363.50012}, {63, 25.499878}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -3082,6 +3330,11 @@ Corridor}</string>
 						<key>r</key>
 						<string>0.4</string>
 					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 				</dict>
 				<key>stroke</key>
 				<dict>
@@ -3109,7 +3362,9 @@ Corridor}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Two men were apprehended with this truck with 
+\f0\fs6 \cf0 Two men were apprehended 
+\i\b Bensaid's
+\i0\b0  rental truck with 
 \i\b two pairs of binoculars, maps of the Los Angeles area, and flight schedules to and from LAX
 \i0\b0 .}</string>
 				<key>VerticalPad</key>
@@ -3143,6 +3398,11 @@ Corridor}</string>
 						<string>0.4</string>
 					</dict>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -3169,7 +3429,9 @@ Corridor}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs6 \cf0 Karim Bensaid fails to return Ryder rental truck in California}</string>
+\f0\i\b\fs6 \cf0 Karim Bensaid
+\i0\b0  fails to return Ryder rental truck in 
+\i\b California.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -3252,6 +3514,8 @@ Corridor}</string>
 						<key>r</key>
 						<string>0</string>
 					</dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>Fuzziness</key>
 					<real>0.0</real>
 					<key>ShadowVector</key>
@@ -3872,6 +4136,11 @@ Elsewhere}</string>
 					<key>MiddleFraction</key>
 					<real>0.28509420156478882</real>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -3950,6 +4219,11 @@ Elsewhere}</string>
 					<key>MiddleFraction</key>
 					<real>0.28509420156478882</real>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -3978,8 +4252,8 @@ Elsewhere}</string>
 
 \f0\fs6 \cf0 Police apprehended two men
 \i\b  near McNary, Texas
-\i0\b0 . \'a0E
-\i\b ach carried $20,000 in cash
+\i0\b0 . \'a0Each
+\i\b  carried $20,000 in cash
 \i0\b0  and had Texas driver\'92s licenses made out in the names 
 \i\b Vincent Cortez
 \i0\b0  and 
@@ -4035,6 +4309,11 @@ Elsewhere}</string>
 					<key>MiddleFraction</key>
 					<real>0.28509420156478882</real>
 				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>stroke</key>
 				<dict>
 					<key>Color</key>
@@ -4068,7 +4347,9 @@ Elsewhere}</string>
 
 \f0\i\b  706-437-6673
 \i0\b0  to 
-\i\b Jamal Kalifa in Houston, Texas
+\i\b Jamal Kalifa 
+\i0\b0 in
+\i\b  Houston, Texas
 \i0\b0 : \'93
 \i\b What you need will be found in the usual place.
 \i0\b0 \'94}</string>
@@ -4139,6 +4420,8 @@ Elsewhere}</string>
 						<key>r</key>
 						<string>0</string>
 					</dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>Fuzziness</key>
 					<real>0.0</real>
 					<key>ShadowVector</key>
@@ -4710,7 +4993,7 @@ Texas}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2012-09-03 17:32:05 +0000</string>
+	<string>2012-09-03 18:27:46 +0000</string>
 	<key>Modifier</key>
 	<string>Brennon Bortz</string>
 	<key>NotesVisible</key>
@@ -4803,15 +5086,15 @@ Texas}</string>
 		<key>SidebarWidth</key>
 		<integer>116</integer>
 		<key>VisibleRegion</key>
-		<string>{{0.5, 43}, {539.5, 457}}</string>
+		<string>{{0.25, 237}, {269.75, 228.5}}</string>
 		<key>Zoom</key>
-		<real>2</real>
+		<real>4</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>2</real>
-				<real>0.5</real>
+				<real>4</real>
+				<real>1</real>
 			</array>
 		</array>
 	</dict>

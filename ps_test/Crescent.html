@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>timeline-reduced</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<script type="text/javascript" src="./jquery-1.8.1.min.js"></script>
+	<script type="text/javascript">
+		// JavaScript statements go here
+
+		images = null;
+		
+		function update() {
+			images = $("img");
+			
+			for (i = 0; i < images.length; ++i) {
+				classList = $(images[i]).attr('class').split(/\s+/);
+				for (j = 0; j < classList.length; ++j) {
+					if ($('#' + classList[j]).is(':checked')) {
+						$(images[i]).css("visibility","visible");
+						break;
+					} else {
+						$(images[i]).css("visibility","hidden");
+					}
+				}
+			}
+		}
+
+	</script>
+</head>
+
+<body bgcolor="#FFFFFF" onload="update()">
+<!-- Save for Web Slices (timeline-reduced.png) -->
+<table id="Table_01" width="8129" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td rowspan="17">
+			Select an option to display: <br>
+			<br>
+
+			<input type="checkbox" id="harazi" onclick="update()" name="Harazi" value="Muhammed bin Harazi" checked> Muhammed bin Harazi<br>
+			<input type="checkbox" id="qatada" onclick="update()" name="Qatada" value="Omar Bakri Qatada" checked> Omar Bakri Qatada <br>
+			<input type="checkbox" id="bensaid" onclick="update()" name="Bensaid" value="Karim Bensaid" checked> Karim Bensaid<br>
+			<input type="checkbox" id="hada" onclick="update()" name="Hada" value="Abdul al Hada" checked> Abdul al Hada <br>
+			<input type="checkbox" id="goode" onclick="update()" name="Goode" value="Ralph Goode" checked> Ralph Goode<br>
+			<input type="checkbox" id="kalifa" onclick="update()" name="Kalifa" value="Jamal Kalifa" checked> Jamal Kalifa<br>
+			<input type="checkbox" id="shamzai" onclick="update()" name="Shamzai" value=" Muhammed Shamzai" checked>  Muhammed Shamzai <br>
+			<input type="checkbox" id="yaser" onclick="update()" name="Yaser" value="Masood Yaser" checked> Masood Yaser<br>
+			<input type="checkbox" id="lozario" onclick="update()" name="Lozario" value="Vincent Lozario" checked> Vincent Lozario <br>
+			<input type="checkbox" id="maulid" onclick="update()" name="Maulid" value="Kalfan Maulid" checked> Kalfan Maulid <br>
+			<input type="checkbox" id="wilson" onclick="update()" name="Wilson" value="Wallace Wilson" checked> Wallace Wilson <br>
+			<input type="checkbox" id="cortez" onclick="update()" name="Cortez" value="Vincent Cortez" checked> Vincent Cortez<br>
+			<input type="checkbox" id="gueterrez" onclick="update()" name="Gueterrez" value="Arnaido Gueterrez" checked>Arnaido Gueterrez<br>
+			<input type="checkbox" id="hassine" onclick="update()" name="Hassine" value=" Ben Hassine" checked> Ben Hassine<br>
+			<input type="checkbox" id="yassin" onclick="update()" name=" Yassin" value=" Ahmed Yassin" checked> Ahmed Yassin<br>
+			<input type="checkbox" id="shibh" onclick="update()" name="Shibh" value=" Ziad al Shibh" checked> Ziad al Shibh <br>
+			<input type="checkbox" id="webster" onclick="update()" name="Webster" value=" Clark Webster" checked> Clark Webster<br>
+			<input type="checkbox" id="adams" onclick="update()" name="Adams" value=" Dr. Clark Adams " checked> Dr. Clark Adams <br>
+			<input type="checkbox" id="salman" onclick="update()" name="Salman" value=" Abul Hassan Salman" checked> Abul Hassan Salman<br>
+			<input type="checkbox" id="clark" onclick="update()" name="Clark" value=" Steven Clark" checked> Steven Clark<br>
+			<input type="checkbox" id="watson" onclick="update()" name="Watson" value=" Shiela Watson" checked> Shiela Watson<br>
+			<input type="checkbox" id="alwan" onclick="update()" name="Hamid Alwan" value="  Hamid Alwan" checked>  Hamid Alwan<br>
+			<input type="checkbox" id="galab" onclick="update()" name="Galab" value=" Mukhtar Galab" checked> Mukhtar Galab<br>
+			<input type="checkbox" id="mosed" onclick="update()" name="Mosed" value=" Yasein Mosed " checked> Yasein Mosed <br>
+			<input type="checkbox" id="oClark" onclick="update()" name="OClark" value=" Omar Clark" checked> Omar Clark<br>
+			<input type="checkbox" id="nizar" onclick="update()" name="Nizar" value=" Joseph Nizar" checked> Joseph Nizar<br>
+			<input type="checkbox" id="musawi" onclick="update()" name="Musawi" value=" Jamil Musawi " checked> Jamil Musawi <br>
+			<input type="checkbox" id="hallak" onclick="update()" name="Hallak" value=" Hani al-Hallak " checked> Hani al-Hallak <br>
+			<input type="checkbox" id="masri" onclick="update()" name="Masri" value="Abdul Al Masri  " checked> Abdul Al Masri <br>
+			<input type="checkbox" id="adel" onclick="update()" name="Adel" value=" Tawfiq al Adel " checked> Tawfiq al Adel <br>
+			<input type="checkbox" id="khallad" onclick="update()" name="Khallad" value="  Saeed Khallad " checked>  Saeed Khallad <br>
+			<input type="checkbox" id="attash" onclick="update()" name="Attash" value=" bin Attash " checked> bin Attash <br>
+			<input type="checkbox" id="ahdal" onclick="update()" name="Ahdal" value="Al Ahdal" checked>  Al Ahdal<br>
+			<input type="checkbox" id="louis" onclick="update()" name="Louis" value=" Carl Louis" checked> Carl Louis<br>
+			<input type="checkbox" id="kerbane" onclick="update()" name="Kerbane" value=" Abdelhak Kerbane" checked> Abdelhak Kerbane<br>
+			<input type="checkbox" id="truck" onclick="update()" name="truck" value="Ryder rental truck" checked> Ryder rental truck <br>
+			<input type="checkbox" id="explosives" onclick="update()" name="Explosives" value=" Explosives" checked> Explosives<br>
+			<input type="checkbox" id="mines" onclick="update()" name="mines" value="Ammunition and land mines" checked> Ammunition and land mines<br>
+			<input type="checkbox" id="passports" onclick="update()" name="passports" value="Forged passports" checked> Forged passports<br>
+			<input type="checkbox" id="license" onclick="update()" name="license" value="Driver license" checked> Driver license<br>
+			<input type="checkbox" id="flight" onclick="update()" name="Flight" value="Flight" checked> Flight <br>
+			<input type="checkbox" id="students" onclick="update()" name="students" value=" students" checked> students<br>
+			<input type="checkbox" id="powhatan" onclick="update()" name="Powhatan" value=" Powhatan Company" checked> Powhatan Company<br>
+			<input type="checkbox" id="bombs" onclick="update()" name="bombs" value="  package bombs" checked>  package bombs<br>
+			<input type="checkbox" id="NYSE" onclick="update()" name="NYSE" value=" NYSE " checked> NYSE <br>
+			<input type="checkbox" id="cheques" onclick="update()" name="cheques" value=" cheques" checked> cheques<br>
+			<input type="checkbox" id="missiles" onclick="update()" name="missiles" value=" Stinger missiles" checked> Stinger missiles<br>
+			<input type="checkbox" id="174" onclick="update()" name="174" value="174" checked> Storage Unit 174<br>
+			<input type="checkbox" id="206" onclick="update()" name="206" value="206" checked>  Storage Unit 206<br>
+			<input type="checkbox" id="queen" onclick="update()" name="Queen" value=" Holland Queen" checked> Holland Queen<br>
+			<input type="checkbox" id="carpet" onclick="update()" name="carpet" value=" carpet shop " checked> carpet shop <br>
+			<input type="checkbox" id="houston" onclick="update()" name="Houston" value="Houston" checked> Houston<br> 
+			<input type="checkbox" id="germany" onclick="update()" name="Germany" value="Germany" checked>Germany<br>
+			<input type="checkbox" id="hamburg" onclick="update()" name="Hamburg" value="Hamburg" checked> Hamburg<br>
+			<input type="checkbox" id="amsterdam" onclick="update()" name="Amsterdam" value="Amsterdam" checked> Amsterdam<br>
+			<input type="checkbox" id="london" onclick="update()" name="London" value="London" checked> London<br>
+			<input type="checkbox" id="dubai" onclick="update()" name="Dubai" value="Dubai" checked> Dubai <br>
+			<input type="checkbox" id="cairo" onclick="update()" name="Cairo" value="Cairo" checked> Cairo<br>
+			<input type="checkbox" id="texas" onclick="update()" name="Texas" value="Texas" checked> Texas<br>
+			<input type="checkbox" id="kentucky" onclick="update()" name="Kentucky" value="Kentucky" checked> Kentucky <br>
+			<input type="checkbox" id="minnesota" onclick="update()" name="Minnesota" value="Minnesota" checked> Minnesota <br>
+			<input type="checkbox" id="colorado" onclick="update()" name="Colorado" value="Colorado" checked> Colorado <br>
+			<input type="checkbox" id="paris" onclick="update()" name="Paris" value=" Paris " checked> Paris <br>
+			<input type="checkbox" id="virginia" onclick="update()" name="Virginia" value=" Virginia " checked> Virginia <br>
+			<input type="checkbox" id="ny" onclick="update()" name="New York" value=" New York" checked> New York <br>
+			<input type="checkbox" id="washingtonDC" onclick="update()" name="Washington D.C" value=" Washington, D.C" checked> Washington, D.C<br>
+			<input type="checkbox" id="seattle" onclick="update()" name="Seattle" value=" Seattle " checked> Seattle <br>
+			<input type="checkbox" id="nj" onclick="update()" name="New Jersey" value=" New Jersey" checked> New Jersey<br>
+			<input type="checkbox" id="ohare" onclick="update()" name="O’Hare" value=" O’Hare" checked> O’Hare<br>
+			<input type="checkbox" id="haarlem" onclick="update()" name="Haarlem" value=" Haarlem " checked> Haarlem <br>
+			<input type="checkbox" id="Sealink" onclick="update()" name="Sealink" value=" Sealink Container Corp. " checked> Sealink Container Corp. <br>
+			<input type="checkbox" id="military" onclick="update()" name="Military" value=" George West Military Reservation " checked> George West Military Reservation <br>
+			<input type="checkbox" id="boston" onclick="update()" name="Boston" value=" Boston " checked> Boston <br>
+			<input type="checkbox" id="northeast" onclick="update()" name="Northeast Corridor" value="Northeast Corridor" checked>Northeast Corridor<br>
+		</td>
+		<td rowspan="2">
+			<img id="timeline_reduced_01" src="images/timeline-reduced_01.png" width="276" height="228" class="texas" /></td>
+		<td colspan="5" rowspan="7">
+			<img id="timeline_reduced_02" src="images/timeline-reduced_02.png" width="940" height="391" class="" /></td>
+		<td colspan="2">
+			<img id="timeline_reduced_03" src="images/timeline-reduced_03.png" width="313" height="209" class="texas goode kalifa" /></td>
+		<td colspan="2" rowspan="7">
+			<img id="timeline_reduced_04" src="images/timeline-reduced_04.png" width="540" height="391" class="" /></td>
+		<td colspan="4" rowspan="3">
+			<img id="timeline_reduced_05" src="images/timeline-reduced_05.png" width="510" height="244" class="texas" /></td>
+		<td colspan="2" rowspan="3">
+			<img id="timeline_reduced_06" src="images/timeline-reduced_06.png" width="577" height="244" class="" /></td>
+		<td colspan="2" rowspan="4">
+			<img id="timeline_reduced_07" src="images/timeline-reduced_07.png" width="337" height="245" class="texas Kalifa" /></td>
+		<td rowspan="10">
+			<img id="timeline_reduced_08" src="images/timeline-reduced_08.png" width="560" height="620" class="northeast Harazi" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_09" src="images/timeline-reduced_09.png" width="475" height="384" class="northeast Albakri" /></td>
+		<td colspan="3" rowspan="10">
+			<img id="timeline_reduced_10" src="images/timeline-reduced_10.png" width="365" height="620" class="northeast" /></td>
+		<td rowspan="5">
+			<img id="timeline_reduced_11" src="images/timeline-reduced_11.png" width="359" height="267" class="northeast Albakri" /></td>
+		<td rowspan="10">
+			<img id="timeline_reduced_12" src="images/timeline-reduced_12.png" width="421" height="620" class="vadc Albakri Harazi" /></td>
+		<td rowspan="8">
+			<img id="timeline_reduced_13" src="images/timeline-reduced_13.png" width="367" height="425" class="vadc Albakri Harazi" /></td>
+		<td rowspan="10">
+			<img id="timeline_reduced_14" src="images/timeline-reduced_14.png" width="390" height="620" class="vadc" /></td>
+		<td colspan="2" rowspan="10">
+			<img id="timeline_reduced_15" src="images/timeline-reduced_15.png" width="430" height="620" class="northeast" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_16" src="images/timeline-reduced_16.png" width="351" height="384" class="northeast" /></td>
+		<td rowspan="6">
+			<img id="timeline_reduced_17" src="images/timeline-reduced_17.png" width="377" height="384" class="northeast" /></td>
+		<td rowspan="10">
+			<img id="timeline_reduced_18" src="images/timeline-reduced_18.png" width="540" height="620" class="northeast" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="209" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_19" src="images/timeline-reduced_19.png" width="313" height="182" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="19" class="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="5">
+			<img id="timeline_reduced_20" src="images/timeline-reduced_20.png" width="276" height="163" class="northeast" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="16" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="7">
+			<img id="timeline_reduced_21" src="images/timeline-reduced_21.png" width="404" height="376" class="vadc Harazi" /></td>
+		<td colspan="3" rowspan="7">
+			<img id="timeline_reduced_22" src="images/timeline-reduced_22.png" width="309" height="376" class="vadc" /></td>
+		<td rowspan="7">
+			<img id="timeline_reduced_23" src="images/timeline-reduced_23.png" width="374" height="376" class="vadc" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_24" src="images/timeline-reduced_24.png" width="337" height="375" class="vadc" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="22" class="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="5">
+			<img id="timeline_reduced_25" src="images/timeline-reduced_25.png" width="359" height="353" class="northeast albakri" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="117" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="4">
+			<img id="timeline_reduced_26" src="images/timeline-reduced_26.png" width="475" height="236" class="vadc Harazi" /></td>
+		<td colspan="2" rowspan="4">
+			<img id="timeline_reduced_27" src="images/timeline-reduced_27.png" width="351" height="236" class="vadc Harazi" /></td>
+		<td rowspan="4">
+			<img id="timeline_reduced_28" src="images/timeline-reduced_28.png" width="377" height="236" class="vadc Harazi" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="7" class="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			<img id="timeline_reduced_29" src="images/timeline-reduced_29.png" width="276" height="229" class="vadc" /></td>
+		<td rowspan="3">
+			<img id="binHarazi" src="images/binHarazi.png" width="277" height="229" class="vadc Albakri Dhaliwal Taliban Harazi " /></td>
+		<td colspan="3" rowspan="3">
+			<img id="binHarazi032" src="images/binHarazi-32.png" width="347" height="229" class="vadc Harazi" /></td>
+		<td rowspan="3">
+			<img id="timeline_reduced_32" src="images/timeline-reduced_32.png" width="316" height="229" class="" /></td>
+		<td colspan="4" rowspan="3">
+			<img id="timeline_reduced_33" src="images/timeline-reduced_33.png" width="853" height="229" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="34" class="" /></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="timeline_reduced_34" src="images/timeline-reduced_34.png" width="367" height="113" class="vadc" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="113" class="" /></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="timeline_reduced_35" src="images/timeline-reduced_35.png" width="367" height="82" class="vadc Harazi" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="82" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="34">
+			<img id="timeline_reduced_36" src="images/timeline-reduced_36.png" width="8128" height="57" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="57" class="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			<img id="timeline_reduced_37" src="images/timeline-reduced_37.png" width="276" height="256" class="europe" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_38" src="images/timeline-reduced_38.png" width="369" height="511" class="europe" /></td>
+		<td rowspan="6">
+			<img id="timeline_reduced_39" src="images/timeline-reduced_39.png" width="254" height="511" class="europe Qatada" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_40" src="images/timeline-reduced_40.png" width="317" height="511" class="europe Harazi" /></td>
+		<td rowspan="6">
+			<img id="timeline_reduced_41" src="images/timeline-reduced_41.png" width="288" height="511" class="elsewhere Bensaid" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_42" src="images/timeline-reduced_42.png" width="308" height="511" class="elsewhere Bensaid" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_43" src="images/timeline-reduced_43.png" width="337" height="511" class="elsewhere Hada" /></td>
+		<td colspan="2" rowspan="6">
+			<img id="timeline_reduced_44" src="images/timeline-reduced_44.png" width="396" height="511" class="elsewhere" /></td>
+		<td colspan="4" rowspan="6">
+			<img id="timeline_reduced_45" src="images/timeline-reduced_45.png" width="712" height="511" class="europe Shamzai" /></td>
+		<td colspan="3" rowspan="6">
+			<img id="timeline_reduced_46" src="images/timeline-reduced_46.png" width="1055" height="511" class="elsewhere" /></td>
+		<td colspan="3" rowspan="2">
+			<img id="timeline_reduced_47" src="images/timeline-reduced_47.png" width="567" height="156" class="elsewhere" /></td>
+		<td colspan="3" rowspan="2">
+			<img id="timeline_reduced_48" src="images/timeline-reduced_48.png" width="794" height="156" class="europe" /></td>
+		<td colspan="3" rowspan="6">
+			<img id="timeline_reduced_49" src="images/timeline-reduced_49.png" width="769" height="511" class="europe" /></td>
+		<td colspan="2">
+			<img id="timeline_reduced_50" src="images/timeline-reduced_50.png" width="597" height="129" class="europe" /></td>
+		<td colspan="3" rowspan="6">
+			<img id="timeline_reduced_51" src="images/timeline-reduced_51.png" width="1089" height="511" class="elsewhere" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="129" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="3">
+			<img id="timeline_reduced_52" src="images/timeline-reduced_52.png" width="597" height="145" class="europe" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="27" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="4">
+			<img id="timeline_reduced_47054" src="images/timeline-reduced_47-54.png" width="565" height="355" class="elsewhere" /></td>
+		<td colspan="4" rowspan="3">
+			<img id="timeline_reduced_54" src="images/timeline-reduced_54.png" width="796" height="154" class="europe" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="100" class="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			<img id="timeline_reduced_55" src="images/timeline-reduced_55.png" width="276" height="255" class="elsewhere" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="18" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img id="timeline_reduced_56" src="images/timeline-reduced_56.png" width="597" height="237" class="elsewhere" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="36" class="" /></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img id="timeline_reduced_57" src="images/timeline-reduced_57.png" width="796" height="201" class="elsewhere" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="201" class="" /></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/spacer.gif" width="276" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="277" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="92" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="254" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="316" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="288" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="25" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="283" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="257" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="80" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="324" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="72" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="34" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="203" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="374" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="101" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="236" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="560" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="259" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="216" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="349" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="2" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="14" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="359" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="421" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="367" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="390" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="12" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="418" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="179" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="172" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="377" height="1" class="" /></td>
+		<td>
+			<img src="images/spacer.gif" width="540" height="1" class="" /></td>
+		<td></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

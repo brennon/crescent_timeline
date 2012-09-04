@@ -54,16 +54,25 @@
 	</script>
 	
 	<style type="text/css">
+		table {
+			zoom: 90%;
+		}
+		
+		td#legend {
+			zoom: 150%;
+			
+		}
 	</style>
 </head>
 
 <body bgcolor="#FFFFFF" onload="update()">
 <!-- Save for Web Slices (timeline-reduced.png) -->
 <table id="Table_01" width="8129" border="0" cellpadding="0" cellspacing="0">
-		<td rowspan="18">
+		<td rowspan="18" id="legend">
+			<img src="images/spacer.gif" width="200" height="1" class="" style="visibility: hidden; "><br />
 			Select an option to display: <br>
 			<br>
-			<a onclick="showAll();">All</a> / <a onclick="showNone();">None</a>
+			<a href="#" onclick="showAll();">All</a> / <a href="#" onclick="showNone();">None</a><br />
 			<input type="checkbox" id="harazi" onclick="update()" name="Harazi" value="Muhammed bin Harazi" checked>Muhammed bin Harazi<br>
 			<input type="checkbox" id="qatada" onclick="update()" name="Qatada" value="Omar Bakri Qatada" checked>Omar Bakri Qatada<br>
 			<input type="checkbox" id="bensaid" onclick="update()" name="Bensaid" value="Karim Bensaid" checked>Karim Bensaid<br>
@@ -269,30 +278,30 @@
 			<img id="timeline_reduced_39" src="images/timeline-reduced_39.png" width="254" height="511" class="europe qatada explosives london" style="visibility: visible; "></td>
 		<td colspan="2" rowspan="6">
 			<img id="timeline_reduced_40" src="images/timeline-reduced_40.png" width="317" height="511" class="europe harazi amsterdam hamburg germany cairo" style="visibility: visible; "></td>
-		<td rowspan="6">
-			<img id="timeline_reduced_41" src="images/timeline-reduced_41.png" width="288" height="511" class="elsewhere Bensaid" style="visibility: visible; "></td>
-		<td colspan="2" rowspan="6">
-			<img id="timeline_reduced_42" src="images/timeline-reduced_42.png" width="308" height="511" class="elsewhere Bensaid" style="visibility: visible; "></td>
-		<td colspan="2" rowspan="6">
-			<img id="timeline_reduced_43" src="images/timeline-reduced_43.png" width="337" height="511" class="elsewhere Hada" style="visibility: visible; "></td>
-		<td colspan="2" rowspan="6">
-			<img id="timeline_reduced_44" src="images/timeline-reduced_44.png" width="396" height="511" class="elsewhere" style="visibility: visible; "></td>
-		<td colspan="4" rowspan="6">
-			<img id="timeline_reduced_45" src="images/timeline-reduced_45.png" width="712" height="511" class="europe shamzai paris passports yaser colorado lozario minnesota maulid kentucky" style="visibility: visible; "></td>
-		<td colspan="3" rowspan="6">
-			<img id="timeline_reduced_46" src="images/timeline-reduced_46.png" width="1055" height="511" class="elsewhere" style="visibility: visible; "></td>
-		<td colspan="3" rowspan="2">
-			<img id="timeline_reduced_47" src="images/timeline-reduced_47.png" width="567" height="156" class="elsewhere" style="visibility: visible; "></td>
-		<td colspan="3" rowspan="2">
-			<img id="timeline_reduced_48" src="images/timeline-reduced_48.png" width="794" height="156" class="europe missiles germany nj hamburg shipping" style="visibility: visible; "></td>
-		<td colspan="3" rowspan="6">
-			<img id="timeline_reduced_49" src="images/timeline-reduced_49.png" width="769" height="511" class="europe amsterdam truck adal khallad attash 206 shipping Sealink explosives " style="visibility: visible; "></td>
-		<td colspan="2">
-			<img id="timeline_reduced_50" src="images/timeline-reduced_50.png" width="597" height="129" class="europe shipping amsterdam boston" style="visibility: visible; "></td>
-		<td colspan="3" rowspan="6">
-			<img id="timeline_reduced_51" src="images/timeline-reduced_51.png" width="1089" height="511" class="elsewhere" style="visibility: visible; "></td>
-		<td>
-			<img src="images/spacer.gif" width="1" height="129" class="" style="visibility: hidden; "></td>
+			<td rowspan="6">
+				<img id="timeline_reduced_41" src="images/timeline-reduced_41.png" width="288" height="511" class="elsewhere bensaid truck california" style="visibility: visible; "></td>
+			<td colspan="2" rowspan="6">
+				<img id="timeline_reduced_42" src="images/timeline-reduced_42.png" width="308" height="511" class="elsewhere bensaid california flight" style="visibility: visible; "></td>
+			<td colspan="2" rowspan="6">
+				<img id="timeline_reduced_43" src="images/timeline-reduced_43.png" width="337" height="511" class="elsewhere hada flight" style="visibility: visible; "></td>
+			<td colspan="2" rowspan="6">
+				<img id="timeline_reduced_44" src="images/timeline-reduced_44.png" width="396" height="511" class="elsewhere wilson colorado military explosives truck" style="visibility: visible; "></td>
+			<td colspan="4" rowspan="6">
+				<img id="timeline_reduced_45" src="images/timeline-reduced_45.png" width="712" height="511" class="europe shamzai paris passports yaser colorado lozario minnesota maulid kentucky" style="visibility: visible; "></td>
+			<td colspan="3" rowspan="6">
+				<img id="timeline_reduced_46" src="images/timeline-reduced_46.png" width="1055" height="511" class="elsewhere seattle explosives" style="visibility: visible; "></td>
+			<td colspan="3" rowspan="2">
+				<img id="timeline_reduced_47" src="images/timeline-reduced_47.png" width="567" height="156" class="elsewhere" style="visibility: visible; "></td>
+			<td colspan="3" rowspan="2">
+				<img id="timeline_reduced_48" src="images/timeline-reduced_48.png" width="794" height="156" class="europe missiles germany nj hamburg shipping" style="visibility: visible; "></td>
+			<td colspan="3" rowspan="6">
+				<img id="timeline_reduced_49" src="images/timeline-reduced_49.png" width="769" height="511" class="europe amsterdam truck adal khallad attash 206 shipping Sealink explosives " style="visibility: visible; "></td>
+			<td colspan="2">
+				<img id="timeline_reduced_50" src="images/timeline-reduced_50.png" width="597" height="129" class="europe shipping amsterdam boston" style="visibility: visible; "></td>
+			<td colspan="3" rowspan="6">
+				<img id="timeline_reduced_51" src="images/timeline-reduced_51.png" width="1089" height="511" class="elsewhere louis passports kerbane explosives bombs" style="visibility: visible; "></td>
+			<td>
+				<img src="images/spacer.gif" width="1" height="129" class="" style="visibility: hidden; "></td>
 	</tr>
 	<tr>
 		<td colspan="2" rowspan="3">

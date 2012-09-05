@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<head>
+	<script type="text/javascript" src="jquery-1.8.1.min.js"></script>
+	<script type="text/javascript">
+		var update = function() {
+			top.frames.timeline.update();
+		}
+		
+		function showNone() {
+			checkboxes = $(":checkbox");
+			for (i = 0; i < checkboxes.length; ++i) {
+				if (checkboxes[i].id.toLowerCase() != "timeline") {
+					$(checkboxes[i]).attr("checked", false);
+				}
+			}
+			
+			top.frames.timeline.update();
+		}
+		
+		function showAll() {
+			checkboxes = $(":checkbox");
+			for (i = 0; i < checkboxes.length; ++i) {
+				if (checkboxes[i].id.toLowerCase() != "timeline") {
+					$(checkboxes[i]).attr("checked", true);
+				}
+			}
+			
+			top.frames.timeline.update();
+		}
+		
+		function isChecked(category) {
+			return $(category).is(':checked');
+		}
+	</script>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		body {
+			font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+		}
+		
+		div#header {
+			padding-top: 5px;
+			padding-left: 5px;
+			font-weight: bold;
+			position: fixed;
+			background-color: white;
+		}
+		
+		input {
+			margin-left: 10px;
+			margin-right: -10px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		td.tag {
+			font-size: small;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		td.category {
+			font-style: italic;
+			padding-left: 5px;
+		}
+		
+		table#categoriesTable {
+			margin-top: 20px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		Show/hide tags: (<a href="#" onclick="showAll()">All</a> / <a href="#" onclick="showNone()">None</a>)<br>
+	</div>
+	
+	<table id="categoriesTable">
+		<tr>
+			<td class="category">People</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="adams" onclick="update()" name="Adams" value="Dr. Clark Adams" checked=""></td>
+			<td class="tag">Dr. Clark Adams</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="adel" onclick="update()" name="Adel" value="Tawfiq al Adel" checked=""></td>
+			<td class="tag">Tawfiq al Adel</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="ahdal" onclick="update()" name="Ahdal" value="Al Ahdal" checked=""></td>
+			<td class="tag">Al Ahdal</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="albakri" onclick="update()" name="Albakri" value="Albakri" checked=""></td>
+			<td class="tag">Albakri</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="alwan" onclick="update()" name="Hamid Alwan" value="Hamid Alwan" checked=""></td>
+			<td class="tag">Hamid Alwan</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="attash" onclick="update()" name="Attash" value="bin Attash" checked=""></td>
+			<td class="tag">bin Attash</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="hallak" onclick="update()" name="Hallak" value="Hani al-Hallak" checked=""></td>
+			<td class="tag">Hani al-Hallak</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="bensaid" onclick="update()" name="Bensaid" value="Karim Bensaid" checked=""></td>
+			<td class="tag">Karim Bensaid</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="oClark" onclick="update()" name="OClark" value="Omar Clark" checked=""></td>
+			<td class="tag">Omar Clark</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="clark" onclick="update()" name="Clark" value="Steven Clark" checked=""></td>
+			<td class="tag">Steven Clark</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="cortez" onclick="update()" name="Cortez" value="Vincent Cortez" checked=""></td>
+			<td class="tag">Vincent Cortez</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="galab" onclick="update()" name="Galab" value="Mukhtar Galab" checked=""></td>
+			<td class="tag">Mukhtar Galab</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="goode" onclick="update()" name="Goode" value="Ralph Goode" checked=""></td>
+			<td class="tag">Ralph Goode</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="gueterrez" onclick="update()" name="Gueterrez" value="Arnaido Gueterrez" checked=""></td>
+			<td class="tag">Arnaido Gueterrez</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="hada" onclick="update()" name="Hada" value="Abdul al Hada" checked=""></td>
+			<td class="tag">Abdul al Hada</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="harazi" onclick="update()" name="Harazi" value="Muhammed bin Harazi" checked=""></td>
+			<td class="tag">Muhammed bin Harazi</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="hassine" onclick="update()" name="Hassine" value="Ben Hassine" checked=""></td>
+			<td class="tag">Ben Hassine</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="kalifa" onclick="update()" name="Kalifa" value="Jamal Kalifa" checked=""></td>
+			<td class="tag">Jamal Kalifa</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="kerbane" onclick="update()" name="Kerbane" value="Abdelhak Kerbane" checked=""></td>
+			<td class="tag">Abdelhak Kerbane</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="khallad" onclick="update()" name="Khallad" value="Saeed Khallad" checked=""></td>
+			<td class="tag">Saeed Khallad</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="louis" onclick="update()" name="Louis" value="Carl Louis" checked=""></td>
+			<td class="tag">Carl Louis</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="lozario" onclick="update()" name="Lozario" value="Vincent Lozario" checked=""></td>
+			<td class="tag">Vincent Lozario</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="masri" onclick="update()" name="Masri" value="Abdul Al Masri  " checked=""></td>
+			<td class="tag">Abdul Al Masri</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="maulid" onclick="update()" name="Maulid" value="Kalfan Maulid" checked=""></td>
+			<td class="tag">Kalfan Maulid</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="mosed" onclick="update()" name="Mosed" value="Yasein Mosed" checked=""></td>
+			<td class="tag">Yasein Mosed</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="musawi" onclick="update()" name="Musawi" value="Jamil Musawi" checked=""></td>
+			<td class="tag">Jamil Musawi</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="nizar" onclick="update()" name="Nizar" value="Joseph Nizar" checked=""></td>
+			<td class="tag">Joseph Nizar</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="qatada" onclick="update()" name="Qatada" value="Omar Bakri Qatada" checked=""></td>
+			<td class="tag">Omar Bakri Qatada</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="salman" onclick="update()" name="Salman" value="Abul Hassan Salman" checked=""></td>
+			<td class="tag">Abul Hassan Salman</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="shamzai" onclick="update()" name="Shamzai" value="Muhammed Shamzai" checked=""></td>
+			<td class="tag">Muhammed Shamzai</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="shibh" onclick="update()" name="Shibh" value="Ziad al Shibh" checked=""></td>
+			<td class="tag">Ziad al Shibh</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="students" onclick="update()" name="students" value="students" checked=""></td>
+			<td class="tag">Students</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="watson" onclick="update()" name="Watson" value="Shiela Watson" checked=""></td>
+			<td class="tag">Shiela Watson</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="webster" onclick="update()" name="Webster" value="Clark Webster" checked=""></td>
+			<td class="tag">Clark Webster</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="wilson" onclick="update()" name="Wilson" value="Wallace Wilson" checked=""></td>
+			<td class="tag">Wallace Wilson</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="yaser" onclick="update()" name="Yaser" value="Masood Yaser" checked=""></td>
+			<td class="tag">Masood Yaser</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="yassin" onclick="update()" name=" Yassin" value="Ahmed Yassin" checked=""></td>
+			<td class="tag">Ahmed Yassin</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="category">Locations</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="amsterdam" onclick="update()" name="Amsterdam" value="Amsterdam" checked=""></td>
+			<td class="tag">Amsterdam</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="boston" onclick="update()" name="Boston" value="Boston" checked=""></td>
+			<td class="tag">Boston</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="cairo" onclick="update()" name="Cairo" value="Cairo" checked=""></td>
+			<td class="tag">Cairo</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="colorado" onclick="update()" name="Colorado" value="Colorado" checked=""></td>
+			<td class="tag">Colorado</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="dubai" onclick="update()" name="Dubai" value="Dubai" checked=""></td>
+			<td class="tag">Dubai</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="europe" onclick="update()" name="Europe" value="Europe" checked=""></td>
+			<td class="tag">Europe (Area)</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="germany" onclick="update()" name="Germany" value="Germany" checked=""></td>
+			<td class="tag">Germany</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="hamburg" onclick="update()" name="Hamburg" value="Hamburg" checked=""></td>
+			<td class="tag">Hamburg</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="haarlem" onclick="update()" name="Haarlem" value="Haarlem" checked=""></td>
+			<td class="tag">Haarlem</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="houston" onclick="update()" name="Houston" value="Houston" checked=""></td>
+			<td class="tag">Houston</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="kentucky" onclick="update()" name="Kentucky" value="Kentucky" checked=""></td>
+			<td class="tag">Kentucky</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="london" onclick="update()" name="London" value="London" checked=""></td>
+			<td class="tag">London</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="minnesota" onclick="update()" name="Minnesota" value="Minnesota" checked=""></td>
+			<td class="tag">Minnesota</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="nj" onclick="update()" name="New Jersey" value="New Jersey" checked=""></td>
+			<td class="tag">New Jersey</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="ny" onclick="update()" name="New York" value="New York" checked=""></td>
+			<td class="tag">New York</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="northeast" onclick="update()" name="Northeast Corridor" value="Northeast Corridor" checked=""></td>
+			<td class="tag">Northeast Corridor (Area)</td>
+		</tr>		
+		<tr>
+			<td><input type="checkbox" id="ohare" onclick="update()" name="OíHare" value="OíHare" checked=""></td>
+			<td class="tag">O'Hare</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="paris" onclick="update()" name="Paris" value="Paris" checked=""></td>
+			<td class="tag">Paris</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="seattle" onclick="update()" name="Seattle" value="Seattle" checked=""></td>
+			<td class="tag">Seattle</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="texas" onclick="update()" name="Texas" value="Texas" checked=""></td>
+			<td class="tag">Texas</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="virginia" onclick="update()" name="Virginia" value="Virginia" checked=""></td>
+			<td class="tag">Virginia</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="vadc" onclick="update()" name="VA / DC" value="VA / DC" checked=""></td>
+			<td class="tag">Virginia / D.C. (Area)</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="washingtonDC" onclick="update()" name="Washington D.C" value="Washington, D.C" checked=""></td>
+			<td class="tag">Washington, D.C</td>
+		</tr>		
+		<tr>
+			<td><input type="checkbox" id="elsewhere" onclick="update()" name="Elsewhere" value="Elsewhere" checked=""></td>
+			<td class="tag">Elsewhere (Area)</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="category">Businesses</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="carpet" onclick="update()" name="carpet" value="carpet shop" checked=""></td>
+			<td class="tag">Carpet shop</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="military" onclick="update()" name="Military" value="George West Military Reservation" checked=""></td>
+			<td class="tag">George West Military Reservation</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="NYSE" onclick="update()" name="NYSE" value="NYSE" checked=""></td>
+			<td class="tag">NYSE</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="powhatan" onclick="update()" name="Powhatan" value="Powhatan Company" checked=""></td>
+			<td class="tag">Powhatan Company</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="Sealink" onclick="update()" name="Sealink" value="Sealink Container Corp." checked=""></td>
+			<td class="tag">Sealink Container Corp.</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="174" onclick="update()" name="174" value="174" checked=""></td>
+			<td class="tag">Storage Unit 174</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="206" onclick="update()" name="206" value="206" checked=""></td>
+			<td class="tag">Storage Unit 206</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="category">Transport</td>
+		</tr>		
+		<tr>
+			<td><input type="checkbox" id="flight" onclick="update()" name="Flight" value="Flight" checked=""></td>
+			<td class="tag">Airline flights</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="queen" onclick="update()" name="Queen" value="Holland Queen" checked=""></td>
+			<td class="tag">Holland Queen</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="truck" onclick="update()" name="truck" value="Ryder rental truck" checked=""></td>
+			<td class="tag">Ryder rental truck</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="shipping" onclick="update()" name="Shipping" value="Shipping" checked=""></td>
+			<td class="tag">Shipping</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="category">Items</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="mines" onclick="update()" name="mines" value="Ammunition and land mines" checked=""></td>
+			<td class="tag">Ammunition and land mines</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="cheques" onclick="update()" name="cheques" value="cheques" checked=""></td>
+			<td class="tag">Cheques</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="license" onclick="update()" name="license" value="Driver license" checked=""></td>
+			<td class="tag">Driver's licenses</td>
+		</tr>		
+		<tr>
+			<td><input type="checkbox" id="explosives" onclick="update()" name="Explosives" value="Explosives" checked=""></td>
+			<td class="tag">Explosives</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="passports" onclick="update()" name="passports" value="Forged passports" checked=""></td>
+			<td class="tag">Forged passports</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" id="bombs" onclick="update()" name="bombs" value="package bombs" checked=""></td>
+			<td class="tag">Package bombs</td>
+		</tr>		
+		<tr>
+			<td><input type="checkbox" id="missiles" onclick="update()" name="missiles" value="Stinger missiles" checked=""></td>
+			<td class="tag">Stinger missiles</td>
+		</tr>
+		
+		<input type="checkbox" id="timeline" onclick="update()" name="Timeline" value="Timeline" checked="" style="visibility: hidden;">
+</body>
+</html>

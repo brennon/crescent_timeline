@@ -28,6 +28,14 @@
 				}
 			}
 		}
+		
+		function expand() {
+			$("table").css("zoom", 0.05 + parseFloat($("table").css("zoom")));
+		}
+		
+		function reduce() {
+			$("table").css("zoom", parseFloat($("table").css("zoom")) - 0.05);
+		}
 	</script>
 	
 	<style type="text/css">
@@ -39,10 +47,23 @@
 			zoom: 150%;
 			
 		}
+		
+		div#resize {
+			position: fixed;
+			font-size: 36pt;
+		}
+		
+		a {
+			text-decoration: none;
+		}
 	</style>
 </head>
 
 <body bgcolor="#FFFFFF" onload="update()">
+<div id="resize">
+	<a href="javascript:expand()">+</a>/<a href="javascript:reduce()">-</a>
+</div>
+
 <!-- Save for Web Slices (timeline-reduced.png) -->
 <table id="Table_01" width="8129" border="0" cellpadding="0" cellspacing="0">
 		<tbody><tr>
